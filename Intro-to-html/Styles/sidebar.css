@@ -1,0 +1,74 @@
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 60px;
+  width: 215px;
+  height: 700px;
+  margin-right: 50px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: white;
+  z-index: 100;
+}
+
+.home, .shorts, .subscription, .liked-videos, .watch-later, .your-videos, .history, .library {
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 14px;
+  background-color: rgba(153, 164, 175, 0.108);
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 15px;
+}
+
+.home:hover {
+  background-color: rgba(153, 164, 175, 0.258);
+}
+
+.shorts, .subscription, .liked-videos, .watch-later, .your-videos, .history, .library {
+  background-color: rgb(255, 255, 255);
+}
+
+.subscription:hover, .shorts:hover, .liked-videos:hover, .watch-later:hover, .your-videos:hover, .history:hover, .library:hover {
+  background-color: rgba(153, 164, 175, 0.108);
+}
+
+.set, .se1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.tooltip-home, .tooltip-shorts, .tooltip-subscription, .tooltip-library, .tooltip-history, .tooltip-your-videos, .tooltip-watch-later, .tooltip-liked-videos {
+  position: absolute;
+  background-color: rgba(92, 97, 103, 0.852);
+  color: white;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: "Roboto","Arial",sans-serif;
+  margin-top: 10px;
+  margin-left: 130px;
+  opacity: 0;
+  font-weight: 0;
+  transition: 0.10s;
+  pointer-events: none;
+  margin-top: 30px;
+  white-space: nowrap;
+}
+
+.home:hover .tooltip-home, .shorts:hover .tooltip-shorts, .subscription:hover .tooltip-subscription, 
+.library:hover .tooltip-library, .history:hover .tooltip-history, .your-videos:hover .tooltip-your-videos,
+.watch-later:hover .tooltip-watch-later, .liked-videos:hover .tooltip-liked-videos {
+  opacity: 1;
+}

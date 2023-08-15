@@ -1,0 +1,26 @@
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 400px;
+  margin-top: 100px;
+ }
+
+ .shop {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+   color:white;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background-color: red;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+
+ .highlight:hover {
+ text-decoration: underline;
+ cursor: pointer;
+ }

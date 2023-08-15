@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Youtube Clone</title>
+
+  <link rel="Stylesheet" href="Styles/video.css">
+  <link rel="Stylesheet" href="Styles/header.css">
+  <link rel="Stylesheet" href="Styles/sidebar.css">
+
+  <style>
+  body {margin: 0;}
+  </style>
+  
+</head>
+
+<body style="height: 700px;">
+
+<div class="header">
+
+    <div class="left">
+      <button class="menu1" style="
+      justify-content: center;
+      border-style: solid;
+      border-width: 0px;
+      border-radius: 26px;
+      cursor: pointer;
+      height: 35px;
+      width: 35px;
+      margin-left: 9px;">
+      <img style="margin-top: 3px;" src="icons/Hamburger_icon.svg.png" class="ham">
+    </button>
+      <img src="icons/youtube-logo-2-3.png" class="yt">
+    </div>
+
+  <div class="center">
+    <input class="search" type="text" placeholder="Search">
+
+    <button class="search-bar">  
+      <img src="icons/search.png" class="search-icon"> 
+      <div class="tooltip-search" style="position: absolute; 
+      background-color: rgba(92, 97, 103, 0.852);
+      color: white;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      padding-left: 7px;
+      padding-right: 7px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-family: Roboto,Arial,sans-serif;
+      margin-top: 20px;
+      ">Search</div>
+    </button>
+
+
+    <div class="mic-icon">
+    <button class="round" style="
+    height: 32px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 22px;
+    cursor: pointer;
+    width: 34px;">
+    <img src="icons/mic.png" class="mic"> 
+    </button>
+    <div class="tooltip-mic">Search with your voice</div>
+    </div>
+
+  </div>
+
+  <div class="right">
+    <div class="create-icons"> 
+      <img src="icons/create.png" class="create"> 
+      <div class="tooltip-create">Create</div>
+    </div>
+    
+  <div class="notification-icon">
+    <img src="icons/youtube-bell-icon-g2936399c9_1280.png" class="bell">
+    <div class="notification">5</div> 
+    <div class="tooltip-notification">Notifications</div>
+  </div>
+
+    <img src="icons/channels4_profile.jpg" class="channel-icon">
+  </div>
+
+</div>
+
+<div>
+
+<div class="sidebar">
+  <div class="set">
+    
+      <div class="home" style="position: relative;" >
+        <img src="icons/home.png" 
+        style="height: 20px;">
+        <div style="margin-left: 6px; position: relative; cursor: pointer; font-weight: bold; padding-left: 15px;">Home</div>
+        <div class="tooltip-home">Home</div>
+       </div>
+
+      <div class="shorts">
+        <img src="icons/shorts.png" 
+        style="height: 18px; padding-left: 2px;">
+        <div style="margin-left: 25px; cursor: pointer;">Shorts</div>
+        <div class="tooltip-shorts">Shorts</div>
+      </div>
+
+      <div class="subscription">
+        <img src="icons/subscriptions.jpg" 
+        style="height: 18px;">
+        <div style="margin-left: 24px; cursor: pointer;">Subscriptions</div>
+        <div class="tooltip-subscription">Subscription</div>
+      </div>
+
+  </div>
+
+  <hr width="200px">
+  
+  <div class="set">
+    <div class="library">
+      <img src="icons/Library.png" 
+      style="height: 15px;">
+      <div style="margin-left: 27px; cursor: pointer;">Library</div>
+      <div class="tooltip-library">Library</div>
+    </div>
+    <div class="history">
+      <img src="icons/History.png" 
+      style="height: 15px;">
+      <div style="margin-left: 27px; cursor: pointer;">History</div>
+      <div class="tooltip-history">History</div>
+    </div>
+    <div class="your-videos">
+      <img src="icons/Your videos.png" 
+      style="height: 15px; width: 17px;">
+      <div style="margin-left: 25px; cursor: pointer;">Your videos</div>
+      <div class="tooltip-your-videos">Your videos</div>
+    </div>
+    <div class="watch-later">
+      <img src="icons/watch-later-icon.png" 
+      style="height: 18px;">
+      <div style="margin-left: 27px; cursor: pointer;">Watch later</div>
+      <div class="tooltip-watch-later">Watch later</div>
+    </div>
+    <div class="liked-videos">
+      <img src="icons/Liked videos.png" 
+      style="height: 15px;">
+      <div style="margin-left: 24px; cursor: pointer;">Liked videos</div>
+      <div class="tooltip-liked-videos">Liked videos</div>
+    </div>
+  </div>
+
+  <hr width="200px">
+
+  <div style="padding-top: 10px; 
+  padding-bottom: none; 
+  padding-right: 10px; 
+  padding-left: 12px;">
+
+    <div> 
+      <strong> 
+        <a style="text-decoration: none; padding-right: 5px; font-size: 15px;color: rgb(90, 87, 87); cursor: pointer;" href="https://about.youtube/">About</a> 
+        <a style="text-decoration: none; padding-right: 5px; font-size: 15px;color:  rgb(90, 87, 87); cursor: pointer;" href="https://blog.youtube/">Press</a> 
+        <a style="text-decoration: none; font-size: 15px;color:  rgb(90, 87, 87); cursor: pointer;" href="https://www.youtube.com/howyoutubeworks/policies/copyright/">Copyright</a>
+      </strong> 
+    </div>
+
+    <div> 
+      <strong> 
+        <a style="text-decoration: none; padding-right: 5px; font-size: 15px;color:  rgb(90, 87, 87); cursor: pointer;" href="https://www.youtube.com/t/contact_us/">Contact us</a> 
+        <a style="text-decoration: none; font-size: 15px;color:  rgb(90, 87, 87); cursor: pointer;" href="https://www.youtube.com/creators/">Creators</a> 
+      </strong> 
+    </div>
+
+    <div> 
+      <strong> 
+        <a style="text-decoration: none; padding-right: 5px; font-size: 15px; color: rgb(90, 87, 87); cursor: pointer;" href="https://www.youtube.com/ads/">Advertise</a> 
+        <a style="text-decoration: none; font-size: 15px;color:  rgb(90, 87, 87); cursor: pointer;" href="https://developers.google.com/youtube">Developers</a> 
+      </strong> 
+    </div>
+
+    <br>
+
+    <div> 
+      <strong> 
+        <a style="text-decoration: none; padding-right: 5px; font-size: 15px; color:  rgb(90, 87, 87); cursor: pointer;" href="https://about.youtube/">Terms</a> 
+        <a style="text-decoration: none; padding-right: 5px; font-size: 15px; color:  rgb(90, 87, 87); cursor: pointer;" href="https://blog.youtube/">Privacy</a> 
+        <a style="text-decoration: none; font-size: 15px;color:  rgb(90, 87, 87); cursor: pointer;" href="https://www.youtube.com/howyoutubeworks/policies/copyright/">Policy</a>
+      </strong> 
+    </div>
+
+    <div> 
+      <strong> 
+        <a style="text-decoration: none; padding-right: 5px; font-size: 15px;color:  rgb(90, 87, 87); cursor: pointer;" href="https://www.youtube.com/t/contact_us/">How YouTube Works</a> 
+      </strong> 
+    </div>
+
+    <div> 
+      <strong> 
+        <a style="text-decoration: none; padding-right: 5px; font-size: 15px;color:  rgb(90, 87, 87); cursor: pointer;" href="https://www.youtube.com/ads/">Advertise</a> 
+      </strong> 
+    </div>
+
+    <br>
+
+    <div style=" font-family: Roboto,Arial,sans-serif; font-size: 12px; color: rgb(138, 146, 153);"> &copy; 2024 Google LLC </div>
+
+  </div>
+  
+</div>
+</div>
+</div>
+
+<div>
+
+<div class="Grid">
+
+    <div class="video-preview">
+      <div class="thumbnaildiv"> <img class="thumbnail" src="thumbnalis/unnamed.jpg"> 
+      <div class="time">15:00</div>
+    </div> 
+
+
+    <div class="connect">
+      <div class="logodiv"> <img class="logo" src="thumbnalis/bike.jpg"> 
+  </div>
+      
+      <div class="paragraphdiv"> 
+        <p class="video-title">Get Hired as a Full Stack Developer in just 3 months !! </p> 
+        <p class="channel-name">A2D Channel</p>
+        <p class="video-stats">121K views &#183; 6 months ago</p> 
+      </div>  
+    
+    </div>
+    </div>
+    
+    <div class="video-preview1">
+    
+      <div class="thumbnaildiv1">
+        <img class="thumbnail1" src="thumbnalis/image.webp"> 
+        <div class="time">15:00</div>
+      </div>
+    
+    <div class="connect1">
+        
+      <div class="logodiv1">
+        <img class="logo1" src="thumbnalis/course.jpg"> 
+      </div>
+      
+      <div class="paragraphdiv1"> 
+        <p class="video-title1">This is why 1000cc riders HATE 600cc riders!</p> 
+        <p class="channel-name1">Meddesuncut</p>
+        <p class="video-stats1">7.2M views &#183; 1 year ago</p> 
+      </div>  
+    
+    </div>  
+    </div>
+
+    <div class="video-preview">
+
+      <div class="thumbnaildiv">
+        <img class="thumbnail" src="thumbnalis/js.webp"> 
+        <div class="time">15:00</div>
+      </div>
+    
+    <div class="connect">
+        
+      <div class="logodiv">
+        <img class="logo" src="thumbnalis/unnamed (1).jpg"> 
+      </div>
+      
+      <div class="paragraphdiv"> 
+        <p class="video-title">JavaScript Full Course (2023) - Beginner to Pro!</p> 
+        <p class="channel-name">SuperSimpleDev</p>
+        <p class="video-stats">1M &#183; 2 months ago</p> 
+      </div>  
+    
+    </div>
+  </div>
+  
+  <div class="video-preview1">
+  
+    <div class="thumbnaildiv1">
+      <img class="thumbnail1" src="thumbnalis/hq720.webp"> 
+      <div class="time">15:00</div>
+    </div>
+  
+  <div class="connect1">
+      
+    <div class="logodiv1">
+      <img class="logo1" src="thumbnalis/channels4_profile.jpg"> 
+    </div>
+     
+    <div class="paragraphdiv1"> 
+      <p class="video-title1">Canada PR Process 2023 by Canada Immigration</p> 
+      <p class="channel-name1">Canada Immigration</p>
+      <p class="video-stats1">2.2M views &#183; 2 year ago</p> 
+    </div>  
+  
+  </div>
+  </div>  
+  
+  <div class="video-preview">
+
+    <div class="thumbnaildiv">
+      <img class="thumbnail" src="thumbnalis/hq720 (1).webp"> 
+      <div class="time">15:00</div>
+    </div>
+  
+  <div class="connect">
+      
+    <div class="logodiv">
+      <img class="logo" src="thumbnalis/unnamed (1).jpg"> 
+    </div>
+     
+    <div class="paragraphdiv"> 
+      <p class="video-title">Get Hired as a Full Stack Developer in just 3 months !!</p> 
+      <p class="channel-name">SuperSimpleDev</p>
+      <p class="video-stats">2M &#183; 2 months ago</p> 
+    </div>  
+  
+  </div>
+  </div>
+  
+  <div class="video-preview1">
+  
+    <div class="thumbnaildiv1">
+      <img class="thumbnail1" src="thumbnalis/hq720 (2).webp"> 
+      <div class="time">15:00</div>
+    </div>
+  
+  <div class="connect1">
+      
+    <div class="logodiv1">
+      <img class="logo1" src="thumbnalis/unnamed (2).jpg"> 
+    </div>
+     
+    <div class="paragraphdiv1"> 
+      <p class="video-title1">Indian Chicken Curry For Marco White</p> 
+      <p class="channel-name1">MasterChef</p>
+      <p class="video-stats1">11M views &#183; 2 year ago</p> 
+  </div>  
+  </div>
+    
+  </div>
+
+</div>
+
+
+<div>
+  
+<div class="Grid1">
+
+  <div class="video-preview">
+    <div class="thumbnaildiv"> <img class="thumbnail" src="thumbnalis/unnamed.jpg"> 
+    <div class="time">15:00</div>
+  </div> 
+
+
+  <div class="connect">
+    <div class="logodiv"> <img class="logo" src="thumbnalis/bike.jpg"> 
+ </div>
+     
+    <div class="paragraphdiv"> 
+      <p class="video-title">Get Hired as a Full Stack Developer in just 3 months !! </p> 
+      <p class="channel-name">A2D Channel</p>
+      <p class="video-stats">121K views &#183; 6 months ago</p> 
+    </div>  
+  
+  </div>
+  </div>
+  
+  <div class="video-preview1">
+  
+    <div class="thumbnaildiv1">
+      <img class="thumbnail1" src="thumbnalis/image.webp"> 
+      <div class="time">15:00</div>
+    </div>
+  
+  <div class="connect1">
+      
+    <div class="logodiv1">
+      <img class="logo1" src="thumbnalis/course.jpg"> 
+    </div>
+     
+    <div class="paragraphdiv1"> 
+      <p class="video-title1">This is why 1000cc riders HATE 600cc riders!</p> 
+      <p class="channel-name1">Meddesuncut</p>
+      <p class="video-stats1">7.2M views &#183; 1 year ago</p> 
+    </div>  
+  
+  </div>  
+  </div>
+
+  <div class="video-preview">
+
+    <div class="thumbnaildiv">
+      <img class="thumbnail" src="thumbnalis/js.webp"> 
+      <div class="time">15:00</div>
+    </div>
+  
+  <div class="connect">
+      
+    <div class="logodiv">
+      <img class="logo" src="thumbnalis/unnamed (1).jpg"> 
+    </div>
+     
+    <div class="paragraphdiv"> 
+      <p class="video-title">JavaScript Full Course (2023) - Beginner to Pro!</p> 
+      <p class="channel-name">SuperSimpleDev</p>
+      <p class="video-stats">1M &#183; 2 months ago</p> 
+    </div>  
+  
+  </div>
+  </div>
+  
+  <div class="video-preview1">
+  
+    <div class="thumbnaildiv1">
+      <img class="thumbnail1" src="thumbnalis/hq720.webp"> 
+      <div class="time">15:00</div>
+    </div>
+  
+  <div class="connect1">
+      
+    <div class="logodiv1">
+      <img class="logo1" src="thumbnalis/channels4_profile.jpg"> 
+    </div>
+     
+    <div class="paragraphdiv1"> 
+      <p class="video-title1">Canada PR Process 2023 by Canada Immigration</p> 
+      <p class="channel-name1">Canada Immigration</p>
+      <p class="video-stats1">2.2M views &#183; 2 year ago</p> 
+    </div>  
+  
+  </div>
+  </div>  
+  
+  <div class="video-preview">
+
+    <div class="thumbnaildiv">
+      <img class="thumbnail" src="thumbnalis/hq720 (1).webp"> 
+      <div class="time">15:00</div>
+    </div>
+  
+  <div class="connect">
+      
+    <div class="logodiv">
+      <img class="logo" src="thumbnalis/unnamed (1).jpg"> 
+    </div>
+     
+    <div class="paragraphdiv"> 
+      <p class="video-title">Get Hired as a Full Stack Developer in just 3 months !!</p> 
+      <p class="channel-name">SuperSimpleDev</p>
+      <p class="video-stats">2M &#183; 2 months ago</p> 
+    </div>  
+  
+  </div>
+  </div>
+  
+  <div class="video-preview1">
+  
+    <div class="thumbnaildiv1">
+      <img class="thumbnail1" src="thumbnalis/hq720 (2).webp"> 
+      <div class="time">15:00</div>
+    </div>
+  
+  <div class="connect1">
+      
+    <div class="logodiv1">
+      <img class="logo1" src="thumbnalis/unnamed (2).jpg"> 
+    </div>
+     
+    <div class="paragraphdiv1"> 
+      <p class="video-title1">Indian Chicken Curry For Marco White</p> 
+      <p class="channel-name1">MasterChef</p>
+      <p class="video-stats1">11M views &#183; 2 year ago</p> 
+  </div>  
+  </div>
+    
+  </div>
+</div>
+
+
+
+</body>
+
+</html>
